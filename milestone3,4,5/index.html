@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Static Resume</title>
+</head>
+<body>
+    <h1>Milestone 5: Unique Path & Shareable Link task 1 By Faizan </h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personlan infotmation</legend>
+            <label for="name">Name:     </label>
+            <input type="text" id="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id ="email" name="email" required>
+        <label for="phone">Phone: </label>
+        <input type="tel" id="phone" name="phone" required> <br>
+
+        <label for="profilepicture">Profile Picture</label>
+        <input type="file" id="profilepicture" name="profilepicture" accept="image/*" required>
+
+
+
+
+
+            </fieldset>
+         <fieldset>
+            <legend>Education </legend>
+            <label for="Education">Education</label>
+            <textarea id="education" name="Education" rows="3"required></textarea>
+            
+         </fieldset>
+        <fieldset>
+            <legend>Skill</legend>
+            <label for="skill">Experience</label>
+            <textarea id="experience" name="skills"rows="3" required></textarea>
+            
+            <button type= "submit">Generate Resume</button>
+
+            <div id="resumeOutput">
+                <!--Resume Will Be Generated Below-->
+            </div>  
+            
+
+            
+
+                
+        </fieldset> 
+
+
+
+<label for="username"> Resume URL: </label>
+<input type="text" id="username" name="username" required/> <br/>
+
+
+
+
+
+
+
+
+   
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
